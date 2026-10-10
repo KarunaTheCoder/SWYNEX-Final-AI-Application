@@ -1,5 +1,12 @@
 # YouTube Comment Sentiment Classifier (Marvel's Wolverine Launch)
 
+[
+
+![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)
+
+](https://sentiment-classifier-narrow-ai.streamlit.app/)
+
+
 This project is a narrow AI system: a machine learning classifier built
 for one task — sentiment classification of YouTube comments — with a
 live demo, documented failures, and ethics notes.
