@@ -8,7 +8,7 @@ def predict_sentiment(comment):
         return "Error: input must be a non-empty string"
     return model.predict([comment])[0]
 
-st.title("YouTube Comment Sentiment Classifier")
+st.title("Marvel's Wolverine Launch — Comment Sentiment Classifier")
 comment = st.text_input("Type a comment:")
 if st.button("Predict"):
     st.write(f"Prediction: **{predict_sentiment(comment)}**")
